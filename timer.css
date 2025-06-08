@@ -1,0 +1,45 @@
+body {
+  background-image: url('figma_image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color:#7f314f;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+
+}
+
+#timer {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #7f314f;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+  border: none;
+  background-color: #7f314f;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.controls button:hover {
+  background-color: #43012e;
+}
