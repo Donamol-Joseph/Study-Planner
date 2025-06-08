@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Subjects - Student Planner</title>
+  <link rel="stylesheet" href="subjects.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h2 style="color: rgb(171, 52, 74);">Subjects</h2>
+  <form id="subject-form">
+    <select id="subject-name" required>
+      <option value="">Select Subject</option>
+      <option value="Computer Science">Computer Science</option>
+      <option value="Economics">Economics</option>
+      <option value="English">English</option>
+      <option value="Maths">Maths</option>
+      <option value="Physics">Physics</option>
+      <option value="Digital Logics">Digital Logics</option>
+ </select>
+    
+    <select id="subject-grade" required>
+      <option value="">Select Grade</option>
+      <option value="A+">A+</option>
+      <option value="A">A</option>
+      <option value="B+">B+</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+      <option value="D">D</option>
+      <option value="F">F</option>
+ </select>
+
+  <button id="submit">Add Subject</button>
+  </form>
+
+  <button id="finish-btn">View motto</button>
+
+  <div id="subjects-container"></div>
+  <div id="quote-box"></div>
+  <script src="subjects.js"></script>
+</body>
+</html>
+
+
