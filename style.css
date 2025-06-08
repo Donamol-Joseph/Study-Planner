@@ -1,0 +1,50 @@
+body {
+  background-image: url('figma_image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  color:#ede9ea;
+}
+
+.quote-box {
+  border: 1px solid #ede9ea;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  font-style: italic;
+  color:#ede9ea;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figure img {
+  width: 400px;
+  height:300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+figcaption {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+
